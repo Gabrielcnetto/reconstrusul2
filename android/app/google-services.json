@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "538292902584",
+    "project_id": "reconstrusul-1f990",
+    "storage_bucket": "reconstrusul-1f990.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538292902584:android:0f47cb2881af27d963724d",
+        "android_client_info": {
+          "package_name": "com.example.reconstrusul"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhAfYL7kpUcj8i3jnzKh0yZVy0Phv7Tv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538292902584:android:225f76e6e876b3d063724d",
+        "android_client_info": {
+          "package_name": "com.example.reconstrusul2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhAfYL7kpUcj8i3jnzKh0yZVy0Phv7Tv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
