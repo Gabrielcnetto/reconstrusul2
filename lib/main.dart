@@ -6,6 +6,7 @@ import 'package:reconstrusul/PROVIDER/auth/registerAccount.dart';
 import 'package:reconstrusul/PROVIDER/auth/screenverify/verifyAuth.dart';
 import 'package:reconstrusul/ROTAS/AppRoutes.dart';
 import 'package:reconstrusul/SCREEN/home/paginaInicial.dart';
+import 'package:reconstrusul/SCREEN/home_barOptions_Dados/screen_dadosProfile.dart';
 import 'package:reconstrusul/SCREEN/initial/initialMessage.dart';
 import 'package:reconstrusul/SCREEN/login/loginScreen.dart';
 import 'package:reconstrusul/SCREEN/register/registerProfile.dart';
@@ -24,7 +25,6 @@ Future<void> main() async {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
@@ -45,6 +45,7 @@ class MyApp extends StatelessWidget {
           AppRoutes.PaginaInicial: (ctx) => PaginaInicial(),
           AppRoutes.InitialMessage: (ctx) => InitialMessage(),
           AppRoutes.RegisterProfile: (ctx) => RegisterProfile(),
+          AppRoutes.ScreenDadosProfile: (ctx) => ScreenDadosProfile(),
         },
       ),
     );

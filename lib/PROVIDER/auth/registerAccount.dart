@@ -22,4 +22,8 @@ class RegisterAccountProvider with ChangeNotifier {
     });
     notifyListeners();
   }
+
+   deslogar(){
+    authConfig.signOut();
+  }
 }

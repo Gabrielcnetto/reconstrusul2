@@ -39,7 +39,7 @@ dependencies:
   firebase_auth: ^4.19.5
   cloud_firestore: ^4.17.3
   provider: ^6.1.2
-
+  google_maps_flutter: ^2.6.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -66,6 +66,7 @@ flutter:
   assets:
     - assetImages/brasaors.webp
     - assetImages/cuia.png
+    - assetImages/iconeEcoFolha.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
